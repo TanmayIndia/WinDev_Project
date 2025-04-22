@@ -1,0 +1,10 @@
+#include<windows.h>
+#include "CommonDialog.h"
+OPEN_DIALOG_BOX 10, 10, 100, 40
+CAPTION "Open File"
+STYLE WS_CAPTION | WS_POPUP | WS_SYSMENU | WS_VISIBLE | WS_CHILD
+BEGIN
+	PUSHBUTTON "Cancel", IDCANCEL, 35, 12, 30, 14, WS_TABSTOP
+END
+
+ 

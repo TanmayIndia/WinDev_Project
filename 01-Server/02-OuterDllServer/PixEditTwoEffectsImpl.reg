@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+[HKEY_CLASSES_ROOT\CLSID\{7AD35FE0-BB59-4773-9BDB-75C47AFF32DC}]
+@="TSP_PixEditTwoEffectsImplServerDll"
+[HKEY_CLASSES_ROOT\CLSID\{7AD35FE0-BB59-4773-9BDB-75C47AFF32DC}\InprocServer32]
+@="C:\\Windows\\System32\\PixEditTwoEffectsImpl.dll"
+                                                                                                                                                                                                                                                                                       

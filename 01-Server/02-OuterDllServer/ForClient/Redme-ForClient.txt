@@ -1,0 +1,17 @@
+Providing you with three files : 
+1)HeaderFileForEndClient.h
+2)RegFileForEndClient.reg
+
+About Header file
+Header file contains three interfaces IDestauration, ISepia and INegative
+IDestauration provides ApplyDestauration() functionality
+ISepia provides ApplySepia() functionality
+INegative provides ApplyNegative() functionality
+All interfaces inherit from IUnknown 
+All interfaces and GUIDs are given in header files
+You can call above mentioned functions on respective interface pointers
+
+Before building your client application do the following steps
+1.Copy the dll to C:\Windows\System32
+2.Double-click on .reg file to register your dll
+3.Build and run your client application

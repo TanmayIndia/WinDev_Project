@@ -1,0 +1,26 @@
+#ignoring environmental files
+*.env
+
+#ignoring executables and object files and resource files
+*.res
+*.exe
+*.obj
+
+#library files and dll
+*.so
+*.dll
+*.lib
+*.a
+
+#ignoring icon files
+*.ico
+
+#ignoring log
+*.log
+
+#ignoring exports file
+*.exp
+*.def
+
+#resource files
+*.cur
